@@ -6,31 +6,7 @@
         "nombreProducto": "Producto 1",
         "precio": "50.000",
         "descripcion": "Star Wars, conocida también en español como La guerra de las galaxias,1​2​3​ es una franquicia y universo compartido de fantasía compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense",
-        "id": "e894d13d-96df-4dec-95f6-2975adcecf2c"
-      },
-      {
-        "categoria": "Consolas",
-        "imagen": "https://i.ibb.co/jb772C2/consola-2.png",
-        "nombreProducto": "play negroo",
-        "precio": "50.000",
-        "descripcion": "Star Wars, conocida también en español como La guerra de las galaxias,1​2​3​ es una franquicia y universo compartido de fantasía compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense",
-        "id": "6f388cd7-5dba-4335-881b-142fb27860ce"
-      },
-      {
-        "categoria": "Consolas",
-        "imagen": "https://i.ibb.co/6Rj8yNJ/control-02.png",
-        "nombreProducto": "Controll",
-        "precio": "50.000",
-        "descripcion": "Star Wars, conocida también en español como La guerra de las galaxias,1​2​3​ es una franquicia y universo compartido de fantasía compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense",
-        "id": "b0aa5b85-bb79-4c68-9735-62d7680fad9e"
-      },
-      {
-        "imagen": "https://i.ibb.co/Qf9zj6R/radio.png",
-        "categoria": "Diversos",
-        "nombreProducto": "radio",
-        "precio": "50.000",
-        "descripcion": "Star Wars, conocida también en español como La guerra de las galaxias,1​2​3​ es una franquicia y universo compartido de fantasía compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense",
-        "id": "e9cc7a4e-a3f6-4449-b25f-05f99b1a5f93"
+        "id": "1"
       },
       {
         "imagen": "https://i.ibb.co/QrHSJSQ/star-War-02.png",
@@ -38,39 +14,135 @@
         "nombreProducto": "Producto 2",
         "precio": "50.000",
         "descripcion": "Star Wars, conocida también en español como La guerra de las galaxias,1​2​3​ es una franquicia y universo compartido de fantasía compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense tardes",
-        "id": "88802318-23b5-4e06-8f53-f8805977bb7d"
+        "id": "2"
+      },
+      {
+        "categoria": "Star war",
+        "imagen": "https://i.ibb.co/8PYT1K0/star-War-03.png",
+        "nombreProducto": "Producto 3",
+        "precio": "50.000",
+        "descripcion": "Star Wars, conocida también en español como La guerra de las galaxias,1​2​3​ es una franquicia y universo compartido de fantasía compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense",
+        "id": "3"
       },
       {
         "imagen": "https://i.ibb.co/nwjGhzz/star-War-04.png",
         "categoria": "Star war",
-        "nombreProducto": "producto 4",
+        "nombreProducto": "Producto 4",
         "precio": "50.000",
         "descripcion": "Star Wars, conocida también en español como La guerra de las galaxias,1​2​3​ es una franquicia y universo compartido de fantasía compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense",
-        "id": "4a276c21-4299-4fb5-9e59-1fa7d8678216"
+        "id": "4"
+      },
+      {
+        "categoria": "Star war",
+        "imagen": "https://i.ibb.co/sttWnXp/star-War-05.png",
+        "nombreProducto": "Producto 5",
+        "precio": "50.000",
+        "descripcion": "Star Wars, conocida también en español como La guerra de las galaxias,1​2​3​ es una franquicia y universo compartido de fantasía compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense",
+        "id": "5"
+      },
+      {
+        "imagen": "https://i.ibb.co/pwcwVkm/star-War-06.png",
+        "categoria": "Star war",
+        "nombreProducto": "Producto 6",
+        "precio": "50.000",
+        "descripcion": "Star Wars, conocida también en español como La guerra de las galaxias,1​2​3​ es una franquicia y universo compartido de fantasía compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense",
+        "id": "6"
+      },
+      {
+        "categoria": "Consolas",
+        "imagen": "https://i.ibb.co/jb772C2/consola-2.png",
+        "nombreProducto": "Xbox",
+        "precio": "50.000",
+        "descripcion": "Compra consolas de videojuegos de las mejores marcas, diviértete en casa con las últimas consolas del mercado, Xbox, PlayStation, Nintendo y muchas referencias más. Lleva a casa fácil y segura la mejor calidad y garantía.",
+        "id": "7"
+      },
+      {
+        "categoria": "Consolas",
+        "imagen": "https://i.ibb.co/6Rj8yNJ/control-02.png",
+        "nombreProducto": "Control",
+        "precio": "50.000",
+        "descripcion": "Compra consolas de videojuegos de las mejores marcas, diviértete en casa con las últimas consolas del mercado, Xbox, PlayStation, Nintendo y muchas referencias más. Lleva a casa fácil y segura la mejor calidad y garantía.",
+        "id": "8"
       },
       {
         "imagen": "https://i.ibb.co/gm9nyx7/controlyconsola.png",
         "categoria": "Consolas",
         "nombreProducto": "Control y consola ",
         "precio": "50.000",
-        "descripcion": "Es un producto del extranjero es un play 5 con su respectivo control personalizado para jugar al warzone a full pfs tenga un buen dia byeeeeeeee",
-        "id": "177b0ea2-8e50-4f11-83fa-9efc7fadf242"
+        "descripcion": "Compra consolas de videojuegos de las mejores marcas, diviértete en casa con las últimas consolas del mercado, Xbox, PlayStation, Nintendo y muchas referencias más. Lleva a casa fácil y segura la mejor calidad y garantía.",
+        "id": "9"
       },
       {
         "imagen": "https://i.ibb.co/SttB8s4/control.png",
         "categoria": "Consolas",
         "nombreProducto": "Control blanco",
         "precio": "50.000",
-        "descripcion": "buenos dias como estas es una prueba despues se va a editar todos los productos cuando la página este en producción ahí los desarrolladores haran los cambios",
-        "id": "8936ae0e-f074-4fa5-8edf-33262e1976b2"
+        "descripcion": "Compra consolas de videojuegos de las mejores marcas, diviértete en casa con las últimas consolas del mercado, Xbox, PlayStation, Nintendo y muchas referencias más. Lleva a casa fácil y segura la mejor calidad y garantía.",
+        "id": "10"
+      },
+      {
+        "imagen": "https://i.ibb.co/CnmxVJN/consola.png",
+        "categoria": "Consolas",
+        "nombreProducto": "Nitendo",
+        "precio": "50.000",
+        "descripcion": "Compra consolas de videojuegos de las mejores marcas, diviértete en casa con las últimas consolas del mercado, Xbox, PlayStation, Nintendo y muchas referencias más. Lleva a casa fácil y segura la mejor calidad y garantía.",
+        "id": "11"
+      },
+      {
+        "imagen": "https://i.ibb.co/2N9nMDZ/game-Boy-Color.png",
+        "categoria": "Consolas",
+        "nombreProducto": "Game Boy",
+        "precio": "50.000",
+        "descripcion": "Compra consolas de videojuegos de las mejores marcas, diviértete en casa con las últimas consolas del mercado, Xbox, PlayStation, Nintendo y muchas referencias más. Lleva a casa fácil y segura la mejor calidad y garantía.",
+        "id": "12"
+      },
+      {
+        "imagen": "https://i.ibb.co/Qf9zj6R/radio.png",
+        "categoria": "Diversos",
+        "nombreProducto": "radio",
+        "precio": "50.000",
+        "descripcion": "Compras en línea en Juguetes y juegos de una gran selección de Muñecos y figuras de acción, Animales, Personas, Dinosaurios y criaturas prehistóricas.",
+        "id": "13"
       },
       {
         "categoria": "Diversos",
         "imagen": "https://i.ibb.co/gJDW2K8/picachu.png",
         "nombreProducto": "Picachu",
         "precio": "50.000",
-        "descripcion": "esto es un prueba para ver si funciona la implemtacion del select asi que no os precupeis que todo esta bajo control o eso creo",
-        "id": "0b3db90f-ccbc-43a3-8428-04f2d84ba6ba"
+        "descripcion": "Compras en línea en Juguetes y juegos de una gran selección de Muñecos y figuras de acción, Animales, Personas, Dinosaurios y criaturas prehistóricas.",
+        "id": "14"
+      },
+      {
+        "imagen": "https://i.ibb.co/52QP2dW/sony.png",
+        "categoria": "Diversos",
+        "nombreProducto": "Sony",
+        "precio": "50.000",
+        "descripcion": "Compras en línea en Juguetes y juegos de una gran selección de Muñecos y figuras de acción, Animales, Personas, Dinosaurios y criaturas prehistóricas.",
+        "id": "15"
+      },
+      {
+        "categoria": "Diversos",
+        "imagen": "https://i.ibb.co/BnTsgvj/gafas3D.png",
+        "nombreProducto": "Gafas 3D",
+        "precio": "50.000",
+        "descripcion": "Compras en línea en Juguetes y juegos de una gran selección de Muñecos y figuras de acción, Animales, Personas, Dinosaurios y criaturas prehistóricas.",
+        "id": "16"
+      },
+      {
+        "imagen": "https://i.ibb.co/Sr59wqW/camisa-SNES.png",
+        "categoria": "Diversos",
+        "nombreProducto": "Camisa",
+        "precio": "50.000",
+        "descripcion": "Compras en línea en Juguetes y juegos de una gran selección de Muñecos y figuras de acción, Animales, Personas, Dinosaurios y criaturas prehistóricas.",
+        "id": "17"
+      },
+      {
+        "categoria": "Diversos",
+        "imagen": "https://i.ibb.co/SQyVngd/camisa-Atari.png",
+        "nombreProducto": "Camisa Atari",
+        "precio": "50.000",
+        "descripcion": "Compras en línea en Juguetes y juegos de una gran selección de Muñecos y figuras de acción, Animales, Personas, Dinosaurios y criaturas prehistóricas.",
+        "id": "18"
       }
     ],
     "users": [
