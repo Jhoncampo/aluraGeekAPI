@@ -150,5 +150,19 @@
         "user": "admin@gmail.com",
         "password": "123456"
       }
+    ],
+    "categorias": [
+      {
+        "id": "1",
+        "categoria": "starwar"
+      },
+      {
+        "id": "2",
+        "categoria": "consolas"
+      },
+      {
+        "id": "3",
+        "categoria": "diversos"
+      }
     ]
   }
