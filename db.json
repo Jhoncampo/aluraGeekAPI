@@ -443,6 +443,116 @@
       "answers": ["Distal", "Palatino", "Distal y mesial"],
       "correctAnswer": 2,
       "image": "30.png"
+    },
+    {
+      "id": 31,
+      "question": "¿Cuál de los siguientes metales se utiliza comúnmente como núcleo para una corona dental debido a su biocompatibilidad y resistencia a la corrosión?",
+      "answers": ["Aluminio", "Cobre", "Oro", "Plomo"],
+      "correctAnswer": 2,
+      "image": "31.png"
+    },
+    {
+      "id": 32,
+      "question": "¿Qué propiedad de una aleación dental es esencial para garantizar un buen ajuste de una prótesis fija?",
+      "answers": [
+        "Dureza",
+        "Maleabilidad",
+        "Expansión térmica",
+        "Conductividad eléctrica"
+      ],
+      "correctAnswer": 2,
+      "image": "32.png"
+    },
+    {
+      "id": 33,
+      "question": "¿Cuál de los siguientes procesos se utiliza para unir dos piezas metálicas en una prótesis dental?",
+      "answers": ["Soldadura", "Cementación", "Adhesión", "Atornillado"],
+      "correctAnswer": 0,
+      "image": "33.png"
+    },
+    {
+      "id": 34,
+      "question": "¿Qué tipo de aleación dental se caracteriza por su alta resistencia a la corrosión y su uso en prótesis fijas de larga duración?",
+      "answers": [
+        "Aleaciones base oro",
+        "Aleaciones base níquel-cromo",
+        "Aleaciones base cobalto-cromo",
+        "Aleaciones base paladio"
+      ],
+      "correctAnswer": 2,
+      "image": "34.png"
+    },
+    {
+      "id": 35,
+      "question": "¿Cuál de los siguientes factores puede afectar la resistencia de una aleación dental?",
+      "answers": [
+        "Tamaño de grano",
+        "Contenido de impurezas",
+        "Tratamiento térmico",
+        "Todas las anteriores"
+      ],
+      "correctAnswer": 3,
+      "image": "35.png"
+    },
+    {
+      "id": 36,
+      "question": "¿Qué tipo de corrosión se produce cuando una aleación dental entra en contacto con saliva y forma una película de óxido?",
+      "answers": [
+        "Corrosión galvánica",
+        "Corrosión por picaduras",
+        "Corrosión por tensión",
+        "Corrosión uniforme"
+      ],
+      "correctAnswer": 3,
+      "image": "36.png"
+    },
+    {
+      "id": 37,
+      "question": "¿Cuál es la principal función del revestimiento en el proceso de fundición de una prótesis dental?",
+      "answers": [
+        "Proporcionar resistencia mecánica a la pieza colada",
+        "Evitar la oxidación del metal fundido",
+        "Facilitar la extracción de la pieza colada",
+        "Todas las anteriores"
+      ],
+      "correctAnswer": 3,
+      "image": "37.png"
+    },
+    {
+      "id": 38,
+      "question": "¿Qué tipo de aleación dental se utiliza comúnmente para fabricar armazones de prótesis removibles?",
+      "answers": [
+        "Aleaciones base oro",
+        "Aleaciones base níquel-cromo",
+        "Aleaciones base cobalto-cromo",
+        "Aleaciones base paladio"
+      ],
+      "correctAnswer": 2,
+      "image": "38.png"
+    },
+    {
+      "id": 39,
+      "question": "¿Cuál de los siguientes tratamientos térmicos se utiliza para aumentar la dureza de una aleación dental?",
+      "answers": [
+        "Recocido",
+        "Endurecimiento por precipitación",
+        "Temple",
+        "Revenido"
+      ],
+      "correctAnswer": 1,
+      "image": "39.png"
+    },
+    {
+      "id": 40,
+      "question": "¿Qué propiedad de una aleación dental es importante para garantizar una buena estética de una restauración dental?",
+      "answers": [
+        "Dureza",
+        "Color",
+        "Resistencia a la fractura",
+        "Biocompatibilidad"
+      ],
+      "correctAnswer": 1,
+      "image": "40.png"
     }
   ]
 }
