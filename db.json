@@ -166,75 +166,86 @@
       }
     ],
     "questions": [
-    {
-        "id": 1,
-        "question": "¿Cuál será el resultado del siguiente código?",
-        "code": "console.log([] + {} === {} + []);",
-        "answers": ["true", "false", "undefined", "TypeError"],
-        "correctAnswer": 0
-    },
-    {
-        "id": 2,
-        "question": "¿Qué valor se mostrará en la consola?",
-        "code": "let a = [1, 2, 3]; let b = a; b.push(4); console.log(a);",
-        "answers": ["[1, 2, 3]", "[1, 2, 3, 4]", "undefined", "TypeError"],
-        "correctAnswer": 1
-    },
-    {
-        "id": 3,
-        "question": "¿Cuál es la salida del siguiente código?",
-        "code": "function foo() { return; { bar: 10; } } console.log(typeof foo());",
-        "answers": ["'object'", "'number'", "'undefined'", "'function'"],
-        "correctAnswer": 2
-    },
-    {
-        "id": 4,
-        "question": "¿Qué mostrará la consola?",
-        "code": "console.log((function(a, b) { return a + b; })(5, '5'));",
-        "answers": ["10", "'55'", "NaN", "SyntaxError"],
-        "correctAnswer": 1
-    },
-    {
-        "id": 5,
-        "question": "¿Cuál es la salida del siguiente código?",
-        "code": "let x = 0; console.log(x++); console.log(++x);",
-        "answers": ["0 y 2", "1 y 2", "0 y 1", "1 y 1"],
-        "correctAnswer": 0
-    },
-    {
-        "id": 6,
-        "question": "¿Qué se imprimirá en la consola?",
-        "code": "console.log([1, 2, 3].map(num => { if (num % 2 === 0) return; return num; }));",
-        "answers": ["[1, undefined, 3]", "[1, null, 3]", "[1, , 3]", "[1, 3]"],
-        "correctAnswer": 2
-    },
-    {
-        "id": 7,
-        "question": "¿Cuál es el tipo del valor devuelto por `typeof NaN`?",
-        "code": "console.log(typeof NaN);",
-        "answers": ["'number'", "'string'", "'undefined'", "'object'"],
-        "correctAnswer": 0
-    },
-    {
-        "id": 8,
-        "question": "¿Qué valor se mostrará en la consola?",
-        "code": "let obj = { a: 1 }; Object.freeze(obj); obj.a = 2; console.log(obj.a);",
-        "answers": ["1", "2", "undefined", "TypeError"],
-        "correctAnswer": 0
-    },
-    {
-        "id": 9,
-        "question": "¿Qué mostrará la consola?",
-        "code": "console.log(typeof function() {});",
-        "answers": ["'function'", "'object'", "'undefined'", "'string'"],
-        "correctAnswer": 0
-    },
-    {
-        "id": 10,
-        "question": "¿Cuál es la salida del siguiente código?",
-        "code": "let a = 10; let b = (a => a * 2)(a); console.log(a, b);",
-        "answers": ["10 20", "20 20", "10 10", "20 10"],
-        "correctAnswer": 0
-    }
-]
+      {
+          "id": 1,
+          "question": "¿La morfología dental es una parte de la anatomía humana, que estudia los dientes, los tejidos de sostén y los elementos anatómicos circundantes?",
+          "code": "morphologyDental = 'morfología dental'; // ¿La morfología dental es una parte de la anatomía humana?",
+          "answers": ["Verdadero", "Falso"],
+          "correctAnswer": 0,
+          "image": "01.png"
+      },
+      {
+          "id": 2,
+          "question": "¿A cuántos grados comienza la acción de la temperatura a manifestarse sobre el diente produciendo grietas en el esmalte?",
+          "code": "temperatureEffect = 'temperatura'; // ¿A cuántos grados comienza la acción de la temperatura sobre el diente?",
+          "answers": ["175 C°", "400 C°", "800 C°"],
+          "correctAnswer": 1,
+          "image": "02.png"
+      },
+      {
+          "id": 3,
+          "question": "¿La ortodoncia es la que trata de reestablecer la anatomía dentaria a través de restauraciones de piezas careadas?",
+          "code": "orthodontics = 'ortodoncia'; // ¿La ortodoncia trata de restaurar piezas careadas?",
+          "answers": ["Verdadero", "Falso"],
+          "correctAnswer": 1,
+          "image": "03.png"
+      },
+      {
+          "id": 4,
+          "question": "¿El esmalte del diente es de origen?",
+          "code": "enamelOrigin = 'esmalte'; // ¿De qué origen es el esmalte del diente?",
+          "answers": ["Mesodérmico", "Ectodérmico", "Endodérmico"],
+          "correctAnswer": 1,
+          "image": "04.png"
+      },
+      {
+          "id": 5,
+          "question": "¿La dentición temporaria por cuántos dientes se encuentra conformada?",
+          "code": "temporaryDentition = 'dentición temporaria'; // ¿Cuántos dientes conforman la dentición temporaria?",
+          "answers": ["20", "22", "10"],
+          "correctAnswer": 0,
+          "image": "05.png"
+      },
+      {
+          "id": 6,
+          "question": "¿El cemento del diente se encuentra en la?",
+          "code": "cementLocation = 'cemento'; // ¿Dónde se encuentra el cemento del diente?",
+          "answers": ["Corona", "Raíz", "Cuello"],
+          "correctAnswer": 1,
+          "image": "06.png"
+      },
+      {
+          "id": 7,
+          "question": "¿Cuál es el tejido más duro del diente?",
+          "code": "hardestTissue = 'tejido más duro'; // ¿Cuál es el tejido más duro del diente?",
+          "answers": ["Cemento", "Dentina", "Esmalte"],
+          "correctAnswer": 2,
+          "image": "07.png"
+      },
+      {
+          "id": 8,
+          "question": "¿Los dientes temporales también se les conoce como dientes caducos?",
+          "code": "temporaryTeeth = 'dientes temporales'; // ¿Los dientes temporales se les conoce como dientes caducos?",
+          "answers": ["Verdadero", "Falso"],
+          "correctAnswer": 0,
+          "image": "08.png"
+      },
+      {
+          "id": 9,
+          "question": "¿Cuáles son los dientes que tienen la función de desgarrar los alimentos fibrosos?",
+          "code": "tearFood = 'desgarrar alimentos'; // ¿Qué dientes desgarran alimentos fibrosos?",
+          "answers": ["Incisivos", "Caninos", "Premolares", "Molares"],
+          "correctAnswer": 1,
+          "image": "09.png"
+      },
+      {
+          "id": 10,
+          "question": "¿Los molares superiores de acuerdo a su número de cúspides son?",
+          "code": "upperMolars = 'molares superiores'; // ¿Cómo se clasifican los molares superiores según su número de cúspides?",
+          "answers": ["Multicuspídeos", "Unicuspídeos", "Bicuspídeos"],
+          "correctAnswer": 0,
+          "image": "10.png"
+      }
+  ]
+  
   }
