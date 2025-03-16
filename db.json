@@ -166,393 +166,115 @@
     }
   ],
   "questions": [
-    {
-      "id": 1,
-      "question": "¿La morfología dental es una parte de la anatomía humana, que estudia los dientes, los tejidos de sostén y los elementos anatómicos circundantes?",
-      "code": "morphologyDental = 'morfología dental'; // ¿La morfología dental es una parte de la anatomía humana?",
-      "answers": ["Verdadero", "Falso"],
-      "correctAnswer": 0,
-      "image": "01.png"
-    },
-    {
-      "id": 2,
-      "question": "¿A cuántos grados comienza la acción de la temperatura a manifestarse sobre el diente produciendo grietas en el esmalte?",
-      "code": "temperatureEffect = 'temperatura'; // ¿A cuántos grados comienza la acción de la temperatura sobre el diente?",
-      "answers": ["175 C°", "400 C°", "800 C°"],
-      "correctAnswer": 1,
-      "image": "02.png"
-    },
-    {
-      "id": 3,
-      "question": "¿La ortodoncia es la que trata de reestablecer la anatomía dentaria a través de restauraciones de piezas careadas?",
-      "code": "orthodontics = 'ortodoncia'; // ¿La ortodoncia trata de restaurar piezas careadas?",
-      "answers": ["Verdadero", "Falso"],
-      "correctAnswer": 1,
-      "image": "03.png"
-    },
-    {
-      "id": 4,
-      "question": "¿El esmalte del diente es de origen?",
-      "code": "enamelOrigin = 'esmalte'; // ¿De qué origen es el esmalte del diente?",
-      "answers": ["Mesodérmico", "Ectodérmico", "Endodérmico"],
-      "correctAnswer": 1,
-      "image": "04.png"
-    },
-    {
-      "id": 5,
-      "question": "¿La dentición temporaria por cuántos dientes se encuentra conformada?",
-      "code": "temporaryDentition = 'dentición temporaria'; // ¿Cuántos dientes conforman la dentición temporaria?",
-      "answers": ["20", "22", "10"],
-      "correctAnswer": 0,
-      "image": "05.png"
-    },
-    {
-      "id": 6,
-      "question": "¿El cemento del diente se encuentra en la?",
-      "code": "cementLocation = 'cemento'; // ¿Dónde se encuentra el cemento del diente?",
-      "answers": ["Corona", "Raíz", "Cuello"],
-      "correctAnswer": 1,
-      "image": "06.png"
-    },
-    {
-      "id": 7,
-      "question": "¿Cuál es el tejido más duro del diente?",
-      "code": "hardestTissue = 'tejido más duro'; // ¿Cuál es el tejido más duro del diente?",
-      "answers": ["Cemento", "Dentina", "Esmalte"],
-      "correctAnswer": 2,
-      "image": "07.png"
-    },
-    {
-      "id": 8,
-      "question": "¿Los dientes temporales también se les conoce como dientes caducos?",
-      "code": "temporaryTeeth = 'dientes temporales'; // ¿Los dientes temporales se les conoce como dientes caducos?",
-      "answers": ["Verdadero", "Falso"],
-      "correctAnswer": 0,
-      "image": "08.png"
-    },
-    {
-      "id": 9,
-      "question": "¿Cuáles son los dientes que tienen la función de desgarrar los alimentos fibrosos?",
-      "code": "tearFood = 'desgarrar alimentos'; // ¿Qué dientes desgarran alimentos fibrosos?",
-      "answers": ["Incisivos", "Caninos", "Premolares", "Molares"],
-      "correctAnswer": 1,
-      "image": "09.png"
-    },
-    {
-      "id": 10,
-      "question": "¿Los molares superiores de acuerdo a su número de cúspides son?",
-      "code": "upperMolars = 'molares superiores'; // ¿Cómo se clasifican los molares superiores según su número de cúspides?",
-      "answers": ["Multicuspídeos", "Unicuspídeos", "Bicuspídeos"],
-      "correctAnswer": 0,
-      "image": "10.png"
-    },
-
-    {
-      "id": 11,
-      "question": "¿Cuántos dientes tiene un adulto?",
-      "answers": ["32 dientes", "23 dientes", "42 dientes", "20 dientes"],
-      "correctAnswer": 0,
-      "image": "11.png"
-    },
-    {
-      "id": 12,
-      "question": "¿Qué nombre recibe lo que protege nuestros dientes?",
-      "answers": ["Encía", "Cemento", "Esmalte dental", "Pulpa"],
-      "correctAnswer": 2,
-      "image": "12.png"
-    },
-    {
-      "id": 13,
-      "question": "¿Dónde se encuentra la pulpa del diente?",
-      "answers": [
-        "Protegiendo el diente",
-        "En el interior del diente",
-        "En la raíz del diente",
-        "En las cúspides del diente"
-      ],
-      "correctAnswer": 1,
-      "image": "13.png"
-    },
-    {
-      "id": 14,
-      "question": "Menciona un material que se utiliza para una impresión dental",
-      "answers": [
-        "Yeso",
-        "Cera base",
-        "Acrílico",
-        "Alginatos y siliconas dentales"
-      ],
-      "correctAnswer": 3,
-      "image": "14.png"
-    },
-    {
-      "id": 15,
-      "question": "¿Qué hace un mecánico dental?",
-      "answers": [
-        "Diseña, elabora, fabrica y prepara prótesis dentales",
-        "Realiza cirugías dentales",
-        "Coloca la ortodoncia en pacientes",
-        "Realiza limpiezas en la cavidad oral"
-      ],
-      "correctAnswer": 0,
-      "image": "15.png"
-    },
-    {
-      "id": 16,
-      "question": "¿Cuántas caras tiene un diente anterior?",
-      "answers": [
-        "Presenta cinco caras",
-        "Presenta una cara",
-        "Presenta cuatro caras",
-        "Presenta siete caras"
-      ],
-      "correctAnswer": 2,
-      "image": "16.png"
-    },
-    {
-      "id": 17,
-      "question": "¿Cuántas caras tiene un diente posterior?",
-      "answers": [
-        "Presenta tres caras",
-        "Presenta dos caras",
-        "Presenta cinco caras",
-        "Presenta cuatro caras"
-      ],
-      "correctAnswer": 2,
-      "image": "17.png"
-    },
-    {
-      "id": 18,
-      "question": "¿Cómo se llama la reacción del yeso al endurecer?",
-      "answers": ["Fraguado", "Etapa filamentosa", "Etapa arenosa"],
-      "correctAnswer": 0,
-      "image": "18.png"
-    },
-    {
-      "id": 19,
-      "question": "¿Cuál es la función del diente canino con los alimentos?",
-      "answers": ["Cortar", "Masticar", "Triturar", "Desgarrar"],
-      "correctAnswer": 3,
-      "image": "19.png"
-    },
-    {
-      "id": 20,
-      "question": "¿Qué material utilizamos como fuente de calor para encerar los dientes?",
-      "answers": ["Horno", "Mechero", "Estufa", "Microondas"],
-      "correctAnswer": 1,
-      "image": "20.png"
-    },
-    {
-      "id": 21,
-      "question": "¿Cómo se clasifican los dientes por morfología?",
-      "answers": [
-        "Incisivos, caninos, premolares y molares",
-        "Centrales, superiores, premolares, caninos",
-        "Caninos, incisivos y molares"
-      ],
-      "correctAnswer": 0,
-      "image": "21.png"
-    },
-    {
-      "id": 22,
-      "question": "¿Cuáles son las divisiones del diente?",
-      "answers": [
-        "Corona, cuello y raíz",
-        "Cuello, dentina y esmalte",
-        "Nervios, corona y raíz"
-      ],
-      "correctAnswer": 0,
-      "image": "22.png"
-    },
-    {
-      "id": 23,
-      "question": "Mencione los tipos de dentición",
-      "answers": ["Temporal", "De leche", "Temporal y permanente"],
-      "correctAnswer": 2,
-      "image": "23.png"
-    },
-    {
-      "id": 24,
-      "question": "¿Qué es la corona anatómica?",
-      "answers": [
-        "Parte del diente que está cubierta por esmalte",
-        "La separación del diente con el esmalte",
-        "El esmalte cubre el diente"
-      ],
-      "correctAnswer": 0,
-      "image": "24.png"
-    },
-    {
-      "id": 25,
-      "question": "¿Qué es una fosa?",
-      "answers": [
-        "Depresión amplia y un poco profunda en la superficie del diente",
-        "Inclinación del diente",
-        "Fisuras del diente"
-      ],
-      "correctAnswer": 0,
-      "image": "25.png"
-    },
-    {
-      "id": 26,
-      "question": "¿Qué es el surco de desarrollo?",
-      "answers": [
-        "Depresión oclusal que separa cúspides unas de otras",
-        "Surcos transversales en el diente",
-        "Surco de desarrollo central"
-      ],
-      "correctAnswer": 0,
-      "image": "26.png"
-    },
-    {
-      "id": 27,
-      "question": "¿Qué es una cúspide?",
-      "answers": [
-        "Montañas dentaria que presenta los molares",
-        "Elevación de esmalte que tiene su cimiento en la dentina",
-        "Elevación esmalte"
-      ],
-      "correctAnswer": 1,
-      "image": "27.png"
-    },
-    {
-      "id": 28,
-      "question": "¿Qué es el borde cervical?",
-      "answers": [
-        "Separación del diente y la raíz",
-        "Línea cervical para los linguales",
-        "Ligera elevación de esmalte por encima de la línea cervical"
-      ],
-      "correctAnswer": 2,
-      "image": "28.png"
-    },
-    {
-      "id": 29,
-      "question": "¿Qué son los mamelones?",
-      "answers": [
-        "Es la parte terminal del lóbulo",
-        "Son pequeñas cúspides",
-        "Parte principal del lóbulo"
-      ],
-      "correctAnswer": 0,
-      "image": "29.png"
-    },
-    {
-      "id": 30,
-      "question": "¿Cuáles son las caras proximales?",
-      "answers": ["Distal", "Palatino", "Distal y mesial"],
-      "correctAnswer": 2,
-      "image": "30.png"
-    },
-    {
-      "id": 31,
-      "question": "¿Cuál de los siguientes metales se utiliza comúnmente como núcleo para una corona dental debido a su biocompatibilidad y resistencia a la corrosión?",
-      "answers": ["Aluminio", "Cobre", "Oro", "Plomo"],
-      "correctAnswer": 2,
-      "image": "31.png"
-    },
-    {
-      "id": 32,
-      "question": "¿Qué propiedad de una aleación dental es esencial para garantizar un buen ajuste de una prótesis fija?",
-      "answers": [
-        "Dureza",
-        "Maleabilidad",
-        "Expansión térmica",
-        "Conductividad eléctrica"
-      ],
-      "correctAnswer": 2,
-      "image": "32.png"
-    },
-    {
-      "id": 33,
-      "question": "¿Cuál de los siguientes procesos se utiliza para unir dos piezas metálicas en una prótesis dental?",
-      "answers": ["Soldadura", "Cementación", "Adhesión", "Atornillado"],
-      "correctAnswer": 0,
-      "image": "33.png"
-    },
-    {
-      "id": 34,
-      "question": "¿Qué tipo de aleación dental se caracteriza por su alta resistencia a la corrosión y su uso en prótesis fijas de larga duración?",
-      "answers": [
-        "Aleaciones base oro",
-        "Aleaciones base níquel-cromo",
-        "Aleaciones base cobalto-cromo",
-        "Aleaciones base paladio"
-      ],
-      "correctAnswer": 2,
-      "image": "34.png"
-    },
-    {
-      "id": 35,
-      "question": "¿Cuál de los siguientes factores puede afectar la resistencia de una aleación dental?",
-      "answers": [
-        "Tamaño de grano",
-        "Contenido de impurezas",
-        "Tratamiento térmico",
-        "Todas las anteriores"
-      ],
-      "correctAnswer": 3,
-      "image": "35.png"
-    },
-    {
-      "id": 36,
-      "question": "¿Qué tipo de corrosión se produce cuando una aleación dental entra en contacto con saliva y forma una película de óxido?",
-      "answers": [
-        "Corrosión galvánica",
-        "Corrosión por picaduras",
-        "Corrosión por tensión",
-        "Corrosión uniforme"
-      ],
-      "correctAnswer": 3,
-      "image": "36.png"
-    },
-    {
-      "id": 37,
-      "question": "¿Cuál es la principal función del revestimiento en el proceso de fundición de una prótesis dental?",
-      "answers": [
-        "Proporcionar resistencia mecánica a la pieza colada",
-        "Evitar la oxidación del metal fundido",
-        "Facilitar la extracción de la pieza colada",
-        "Todas las anteriores"
-      ],
-      "correctAnswer": 3,
-      "image": "37.png"
-    },
-    {
-      "id": 38,
-      "question": "¿Qué tipo de aleación dental se utiliza comúnmente para fabricar armazones de prótesis removibles?",
-      "answers": [
-        "Aleaciones base oro",
-        "Aleaciones base níquel-cromo",
-        "Aleaciones base cobalto-cromo",
-        "Aleaciones base paladio"
-      ],
-      "correctAnswer": 2,
-      "image": "38.png"
-    },
-    {
-      "id": 39,
-      "question": "¿Cuál de los siguientes tratamientos térmicos se utiliza para aumentar la dureza de una aleación dental?",
-      "answers": [
-        "Recocido",
-        "Endurecimiento por precipitación",
-        "Temple",
-        "Revenido"
-      ],
-      "correctAnswer": 1,
-      "image": "39.png"
-    },
-    {
-      "id": 40,
-      "question": "¿Qué propiedad de una aleación dental es importante para garantizar una buena estética de una restauración dental?",
-      "answers": [
-        "Dureza",
-        "Color",
-        "Resistencia a la fractura",
-        "Biocompatibilidad"
-      ],
-      "correctAnswer": 1,
-      "image": "40.png"
-    }
-  ]
+  {
+    "id": 1,
+    "question": "¿Qué es la Inteligencia Artificial (IA)?",
+    "answers": [
+      "Una rama de la informática que busca crear máquinas inteligentes",
+      "Un tipo de red social",
+      "Un lenguaje de programación",
+      "Un dispositivo electrónico"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál de los siguientes es un ejemplo de IA en la vida diaria?",
+    "answers": [
+      "Asistentes virtuales como Siri o Alexa",
+      "Calculadoras básicas",
+      "Lámparas inteligentes",
+      "Televisores antiguos"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Qué es el aprendizaje automático (Machine Learning)?",
+    "answers": [
+      "Un subcampo de la IA que permite a las máquinas aprender de los datos",
+      "Un tipo de hardware",
+      "Un lenguaje de programación",
+      "Una red social"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Qué es un chatbot?",
+    "answers": [
+      "Un programa que simula conversaciones humanas",
+      "Un tipo de robot físico",
+      "Un lenguaje de programación",
+      "Un dispositivo de almacenamiento"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Qué empresa desarrolló el modelo de lenguaje ChatGPT?",
+    "answers": [
+      "OpenAI",
+      "Google",
+      "Microsoft",
+      "Facebook"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Cómo se entrena una IA?",
+    "answers": [
+      "Con grandes volúmenes de datos",
+      "Instalando un software especial",
+      "Con solo una línea de código",
+      "Colocándole sensores físicos"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Qué es la ética en la IA?",
+    "answers": [
+      "El estudio de los impactos morales y sociales de la IA",
+      "Un tipo de algoritmo",
+      "Un lenguaje de programación",
+      "Un dispositivo de hardware"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Qué es la robótica en IA?",
+    "answers": [
+      "La combinación de inteligencia artificial con robots físicos",
+      "Un software para videojuegos",
+      "Un lenguaje de programación",
+      "Un tipo de red social"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cuál es una ventaja de la IA en la educación?",
+    "answers": [
+      "Personalización del aprendizaje",
+      "Eliminación de todos los maestros",
+      "Menos acceso a la información",
+      "Mayor tiempo de espera para resolver dudas"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Cuál es un ejemplo de IA en la medicina?",
+    "answers": [
+      "Diagnóstico asistido por IA",
+      "Uso de videojuegos en hospitales",
+      "Robots limpiadores",
+      "Cámaras de seguridad"
+    ],
+    "correctAnswer": 0
+  }
+]
 }
